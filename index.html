@@ -17,42 +17,50 @@ crossorigin="anonymous">
   <body>
     
 
-    <div class="jumbotron text-center">
-        <h1>Public OAS Dataset</h1>
-        <p>The following datasets are based on the openAPI specification and are free for use. They allow developers and researchers to 
-            work on projects about the OAS. The following links lead to the datasets themself, my master thesis about the creation of the 
-            dataset and the research on web service discovery, the data is used for.
-        </p> 
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1>Public OAS Dataset</h1>
+            <p>The following datasets are based on the openAPI specification and are free for use. They allow developers and researchers to 
+                work on projects about the OAS. The following links lead to the datasets themself, my master thesis about the creation of the 
+                dataset and the research on web service discovery, the data is used for.
+            </p> 
+          </div>
     </div>
 
     <div class="container">
     <div class="row">
         <div class="col-sm-4">
             <h3>Datasets</h3>
-            <p><a href="https://github.com/pmanlukas/thesisdata/tree/master/data/datasets/">Link to dataset</a></p>
+            <p><a href="https://github.com/pmanlukas/thesisdata/tree/master/data/datasets/" class="btn btn-primary btn-lg active" role="button">Link to dataset</a></p>
+            <p>You need to serialize the datasets files with Pythons pickle function</p>
             <p>There are two datasets:</p>
-            <ul>
-                <li>Specs complete: 1034+ samples</li>
-                <li>Specs category: 944+ samples</li>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Specs complete: 1034+ samples</li>
+                <li class="list-group-item">Specs category: 944+ samples</li>
             </ul> 
         </div>
         <div class="col-sm-4">
             <h3>Labels</h3>
-            <p><a href="https://github.com/pmanlukas/thesisdata/tree/master/data/labels/">Link to labels</a></p>
+            <p><a href="https://github.com/pmanlukas/thesisdata/tree/master/data/labels/" class="btn btn-primary btn-lg active" role="button">Link to labels</a></p>
             <p>There are three different labels:</p>
-            <ul>
-                <li>Completness: 8 classes</li>
-                <li>Extensiveness: 3 classes</li>
-                <li>Category: 32 classes</li>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Completness: 8 classes</li>
+                <li class="list-group-item">Extensiveness: 3 classes</li>
+                <li class="list-group-item">Category: 32 classes</li>
             </ul> 
         </div>
         <div class="col-sm-4">
             <h3>My Master Thesis</h3> 
-            <p><a href="url">Link to master thesis</a></p>
-            <p><a href="https://github.com/pmanlukas/thesisdata">Link to corresponding repo master thesis</a></p>
+            <p><a href="url" class="btn btn-primary btn-lg active" role="button">Link to master thesis</a></p>
+            <p><a href="https://github.com/pmanlukas/thesisdata" class="btn btn-primary btn-lg active" role="button">Link to corresponding repo master thesis</a></p>
+            <p><a href="https://drive.google.com/drive/folders/1diqXIyZ-gTRnNINCP5l69x6NIItLe-Y_?usp=sharing" class="btn btn-primary btn-lg active" role="button">Link to model and tokenizer files</a></p>
         </div>
     </div>
-    </div> 
+    </div>
+    <nav class="navbar fixed-bottom navbar-light bg-faded">
+        <a class="navbar-brand" href="#">Impressum</a>
+        <p>(c) Lukas Pollmann, 2018</p>
+    </nav> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
